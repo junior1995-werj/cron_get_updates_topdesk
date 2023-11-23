@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cron-get-updates-topdesk"
+version = "0.1.0"
+description = ""
+authors = ["Ewald Werner Junior <juninhowerner31@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cron_get_updates_topdesk"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.4.2"
+topdesk = "^0.0.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
